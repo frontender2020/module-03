@@ -17,7 +17,7 @@ body {
 
 .menu-list {
     text-align: center;
-    padding: 77px 0 98px;
+    padding: 77px 0 0;
 }
 
 li.list-item {
@@ -53,6 +53,7 @@ li.list-item {
 article {
     width: 420px;
     display: inline-block;
+    margin-top: 98px;
 }
 
 article:nth-child(2n+1) {
@@ -62,13 +63,13 @@ article:nth-child(2n+1) {
 h2.article-heading {
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 34px;
+    margin-bottom: 25px;
 }
 
 p.article-desc {
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 124px;
+    margin-bottom: 37px;
 }
 
 .article-image {
@@ -93,14 +94,13 @@ p.article-rubric {
     width: 164px;
     margin: 0 auto;
     margin-bottom: 70px;
-    padding: 20px 32px;
+    margin-top: 12px;
+    padding: 20px 30px;
     border: 1px solid #626262;
     color: #626262;
     background-color: #fff;
     font-size: 20px;
-    font-weight: 400;
     line-height: 24px;
     cursor: pointer;
     outline: none;
-    margin-top: -69px;
 }
